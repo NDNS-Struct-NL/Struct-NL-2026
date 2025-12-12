@@ -1,6 +1,6 @@
 ---
 layout: index
-description: Utrecht Univeristy: June 18-19, 2026
+description: Utrecht Univeristy -- June 18-19, 2026
 ---
 
 ![Workshop image](assets/workshopimg.png)
