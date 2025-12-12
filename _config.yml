@@ -21,6 +21,9 @@ navbar:
   - title: Participants
     url: /participants/
 
+header_pages:
+  - index.md
+
 exclude:
   - LICENSE
   - README.md
