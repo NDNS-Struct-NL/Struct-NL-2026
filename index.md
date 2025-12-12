@@ -1,6 +1,7 @@
 ---
 layout: index
 description: Utrecht University - June 18-19, 2026
+navorder: 1
 ---
 
 ![Workshop image](assets/workshopimg_small.png)
