@@ -13,6 +13,14 @@ indexing: true
 
 favicon_ico: "/assets/icons/favicon.ico"
 
+navbar:
+  - title: Home    # <-- Add this block
+    url: /
+  - title: Program
+    url: /program/
+  - title: Participants
+    url: /participants/
+
 exclude:
   - LICENSE
   - README.md
