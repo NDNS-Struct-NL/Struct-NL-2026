@@ -1,6 +1,7 @@
 ---
 layout: index
 description: Utrecht University - June 18-19, 2026
+title: struct NL 2026
 navorder: 1
 ---
 
