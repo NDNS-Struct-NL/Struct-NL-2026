@@ -1,0 +1,11 @@
+alerts:
+  - title: "Note"
+    text: Registration and call for abstracts are open!
+    color: green-1
+buttons:
+  - text: Register here
+    url: https://forms.gle/evtrn9vxM1RipT3D6
+    disabled: false
+  - text: Submit abstract
+    url: https://forms.gle/LM3wrTUXCkdGGrtn6
+    disabled: false
