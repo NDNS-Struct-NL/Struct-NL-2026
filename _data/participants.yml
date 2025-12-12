@@ -3,49 +3,31 @@ groups:
     sort: true
     columns: false
     members:
-      - name: Oriol
-        surname: Colomes
-        affil: TU Delft
-      - name: Artur
+      - name: J.
+        surname: Frank
+        affil: UU
+      - name: A.
         surname: Palha
         affil: TU Delft
-      - name: Robin
-        surname: Richardson
-        affil: Netherlands eScience Center
-      - name: Deepesh
+      - name: M.
+        surname: Schlottbom
+        affil: UTwente
+      - name: B.
+        surname: Sanderse
+        affil: TU/e & CWI
+      - name: T.
+        surname: Tyranowski
+        affil: UTwente
+      - name: R.
+        surname: Verstappen
+        affil: RUG
+      - name: D.
         surname: Toshniwal
         affil: TU Delft
-      - name: Francesc
-        surname: Verdugo
-        affil: VU Amsterdam
   - title: Confirmed Speakers
     sort: true
     columns: true
     members:
-      - name: Oriol
-        surname: Colomes
-        affil: TU Delft
-      - name: Santiago
-        surname: Badia
-        affil: Monash University
-      - name: Bernat
-        surname: Font
-        affil: TU Delft
-      - name: Knut A.
-        surname: Meyer
-        affil: Chalmers University of Technology
-      - name: Artur
-        surname: Palha
-        affil: TU Delft
-      - name: Ludovic
-        surname: Raess
-        affil: UNIL
-      - name: Deepesh
-        surname: Toshniwal
-        affil: TU Delft
-      - name: Francesc
-        surname: Verdugo
-        affil: VU Amsterdam
-      - name: Andrew
-        surname: Winters
-        affil: LIU
+      - name: TBA
+        surname: TBA
+        affil: TBA

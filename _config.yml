@@ -1,13 +1,13 @@
-title: Julia4PDEs-2026
-description: Vrije Universiteit Amsterdam - 26-27 March 2026
-baseurl: Julia4PDEs-2026/
-url: https://galerkintoolkit.github.io/
+title: Struct-NL 2026
+description: Utrecht Univeristy: June 18-19, 2026
+baseurl: Struct-NL-2026/
+url: https://ndns-struct-nl.github.io/struct-nl-2026
 
 permalink: pretty
 theme: jekyll-nagymaros
 
 home: /
-copyright: Netherlands eScience Center, Vrije Universiteit Amsterdam
+copyright: NDNS+
 indexing: true
 
 exclude:

@@ -1,6 +1,6 @@
-center: 52.334632, 4.864560
-zoom: 13
+center: 52.0867464, 5.1644578
+zoom: 16
 markers:
-  - title: Conference location
-    text: Vrije Universiteit, Amsterdam
-    latlng: 52.334632, 4.864560
+  - title: Workshop location
+    text: Centre for Complex System Studies, Utrecht University, Utrecht, The Netherlands
+    latlng: 52.0867464, 5.1644578

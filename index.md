@@ -1,31 +1,27 @@
 ---
 layout: index
-description: Vrije Universiteit Amsterdam - 26-27 March 2026
+description: Utrecht Univeristy: June 18-19, 2026
 ---
 
 ![Workshop image](assets/workshopimg.png)
 
-We will gather the scientific community using the Julia programming
-language for the numerical solution of Partial Differential equations (PDEs). This is a diverse
-community that includes researchers from different domains such as applied mathematics,
-HPC, as well as applications like aerospace, civil engineering, and computational physics.
-A central theme will be to align efforts within the
-community, learn from each other, and identify opportunities for collaboration.
+We are excited to announce Struct-NL 2026: the first edition of a Dutch workshop on structure-preserving numerical methods.
+This two-day workshop will bring together researchers from across the Netherlands to share methodologies, foster interdisciplinary collaboration, and strengthen the national research community in this strategically important field.
+We aim to connect diverse research lines—including geometric integration, variational discretization, and scientific machine learning —to enhance collective impact and innovation.
 
-This workshop is hosted by the team developing [GalerkinToolkit.jl](https://github.com/GalerkinToolkit/GalerkinToolkit.jl),
-a new multi-platform finite element library in Julia. The program will include a demo tutorial about this package.
+This workshop is organized by **Struct-NL**, the [NDNS+](https://www.ndns.nl/) Special Activity Group on Structure-preserving Numerical Methods.
+This is a community dedicated to developing advanced numerical techniques that encode the fundamental physical laws and geometric structures underlying complex systems. Join the Struct-NL mailing list [here](https://listserv.tudelft.nl/mailman/listinfo/ndns-struc-pres-2025).
 
-* **When**: 26-27 March 2026
-* **Where**: Vrije Universiteit Amsterdam, NU building. See on the map [here](map/).
+* **When**: June 18-19, 2026
+* **Where**: [Center for Complex System Studies, Utrecht University](map/)
 * **What**: See the preliminary program [here](program/)
-* **Who**: Confirmed keynote speakers and organizing committee [here](participants/).
-* **How**: Registration and (optional) abstract submission for presentations are detailed below.
+* **Who**: Confirmed speakers and organizing committee [here](participants/)
+* **How**: Instructions for registration and (optional) abstract submission for contributed talks are below
 
 
 ### Acknowledgment
 
-This workshop is funded by the [Netherlands eScience Center](https://www.esciencecenter.nl/) under grant id
-[NLESC.SS.2023.008](https://research-software-directory.org/projects/hp2sim).
+This community is funded by the Dutch [Nonlinear Dynamics of Natural Systems Cluster](https://www.ndns.nl/).
 
 ---
 
@@ -33,15 +29,22 @@ This workshop is funded by the [Netherlands eScience Center](https://www.escienc
 
 Registration for this workshop is **free**, but mandatory. Lunch will be provided by the venue.
 
-In addition to the keynote talks by invited speakers, the workshop will feature
-contributed talks (15' + 5' Q&A).
-If you would like to be considered for one of these talks, please send a (max) 250 word abstract.
- The topic of the presentation is open as long as it has some connection to the Julia programming language,
- HPC, the tooling needed to solve PDEs, or its usage in practical applications and teaching related to PDEs.
-You should also register for the workshop.
+## 🗣️ Call for Contributed Talks
 
-* **Abstract submission closes on February 1st 2026, 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
+In addition to the keynote talks by invited speakers, there will be a possibility to present contributed talks ($15' + 5'$ Q\&A).
+If you would like to be considered for one of these talks, please send a maximum **250-word abstract**.
+The topic of your presentation should align with the SAG's core theme of **Structure-Preserving Numerical Methods** and can cover areas such as:
+* **Geometric Foundations:** Variational, Hamiltonian, or metriplectic formulations of field theories
+* **Methodologies:** Geometric integration, finite element exterior calculus, variational discretization, or structure-preserving scientific machine learning
+* **Practical Application:** Usage in fields such as fluid dynamics, plasma physics, geophysics, or climate science
+* **Implementation & Deployment:** High-quality, open-source, modular software frameworks for structure-preserving methods
+
+We especially encourage submissions that resonate with the SAG's goal of fostering a collaborative community and training the next generation of researchers.
+
+Please also register for the workshop separately.  
+
+* **Abstract submission closes on TBA, 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
 * **Abstract acceptance will be notified on TBA.**
-* **Registration closes on March 8th 2026, 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
+* **Registration closes on TBA, 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
 
 

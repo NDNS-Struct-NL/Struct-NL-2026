@@ -1,7 +1,7 @@
 ---
 layout: map
 title: Map
-description: Conference location
+description: Workshop location
 navorder: 3
 ---
 
