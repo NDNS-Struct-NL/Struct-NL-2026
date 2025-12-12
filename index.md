@@ -1,6 +1,6 @@
 ---
 layout: index
-hide_title: true
+nav_title: "Home"
 description: Utrecht University - June 18-19, 2026
 ---
 
