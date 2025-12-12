@@ -10,6 +10,8 @@ home: /
 copyright: NDNS+
 indexing: true
 
+favicon_ico: "/assets/icons/favicon.ico"
+
 exclude:
   - LICENSE
   - README.md
