@@ -1,6 +1,7 @@
 ---
 layout: index
 description: Vrije Universiteit Amsterdam - 26-27 March 2026
+navorder: 1
 ---
 
 ![Workshop image](assets/workshopimg.png)
