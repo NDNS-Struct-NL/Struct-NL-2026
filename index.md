@@ -3,7 +3,7 @@ layout: index
 description: Utrecht Univeristy - June 18-19, 2026
 ---
 
-![Workshop image](assets/workshopimg.png)
+![Workshop image](assets/workshopimg_transparent_back.png)
 
 We are excited to announce **struct NL 2026**: the first edition of a Dutch workshop on structure-preserving numerical methods.
 This two-day workshop will bring together researchers from across the Netherlands to share methodologies, foster interdisciplinary collaboration, and strengthen the national research community in this strategically important field.
