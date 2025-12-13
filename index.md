@@ -8,11 +8,11 @@ navorder: 1
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
     <div style="flex: 1;">
-        We are excited to announce **struct NL 2026**: the first edition of a Dutch workshop on structure-preserving numerical methods.
+        We are excited to announce <strong>struct NL 2026</strong>: the first edition of a Dutch workshop on structure-preserving numerical methods.
         This two-day workshop will bring together researchers from across the Netherlands to share methodologies, foster interdisciplinary collaboration, and strengthen the national research community in this field.
         We aim to connect diverse research lines - including geometric integration, variational discretization, and scientific machine learning - to enhance collective impact and innovation.
     </div>
-    
+
     <div style="flex: 0 0 250px;">
         <img src="assets/workshopimg_small.png" alt="Workshop image" style="width: 100%; height: auto; display: block;">
     </div>
