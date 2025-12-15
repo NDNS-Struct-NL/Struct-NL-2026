@@ -43,7 +43,7 @@ days:
         title: Lunch
         category: Break
       - time: 13:30 to 15:30
-        title: Mantis.jl tutorial
+        title: Activity session
         category: Tutorial
       - time: 15:30 to 16:00
         title: Coffee break and closure
