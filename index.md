@@ -19,7 +19,7 @@ navorder: 1
 </div>
 
 This workshop is organized by **struct NL**, the [NDNS+](https://www.ndns.nl/) Special Activity Group on Structure-preserving Numerical Methods.
-This is a community dedicated to developing advanced numerical techniques that encode the fundamental physical laws and geometric structures underlying complex systems. Join the **struct NL** mailing list [here](https://listserv.tudelft.nl/mailman/listinfo/ndns-struc-pres-2025).
+This is a community dedicated to developing advanced numerical techniques that encode the fundamental physical laws and geometric structures underlying complex systems. Join the **struct NL** mailing list [here](https://listserv.tudelft.nl/mailman/listinfo/ndns-struc-pres-2025-all).
 
 * **When**: June 18-19, 2026
 * **Where**: [Center for Complex System Studies, Utrecht University](map/)
