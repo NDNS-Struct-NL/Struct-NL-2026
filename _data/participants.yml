@@ -1,6 +1,6 @@
 groups:
   - title: Organizers
-    sort: true
+    sort: false
     columns: false
     members:
       - name: J.
