@@ -40,7 +40,7 @@ Registration for this workshop is **free**, but mandatory. Lunch will be provide
 
 ### Call for abstracts
 
-In addition to the keynote talks by invited speakers, there will be a possibility to present contributed talks (15 + 5).
+In addition to the keynote talks by invited speakers, there will be a possibility to present contributed talks.
 If you would like to be considered for one of these talks, please send a maximum **250-word abstract**.
 The topic of your presentation should align with the SAG's core theme of **Structure-Preserving Numerical Methods** and can cover areas such as:
 * **Geometric Foundations:** Variational, Hamiltonian, or metriplectic formulations of field theories
@@ -56,6 +56,6 @@ Please also register for the workshop separately.
 
 * **Abstract submission closes on May 1, 2026, 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
 * **Abstract acceptance will be notified on May 15, 2026.**
-* **Registration closes on May 1, 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
+* **Registration closes on May 1, 2026 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
 
 
