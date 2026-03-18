@@ -38,20 +38,6 @@ This community is funded by the Dutch [Nonlinear Dynamics of Natural Systems Clu
 
 Registration for this workshop is **free**, but mandatory. Lunch will be provided by the venue.
 
-### Call for abstracts
-
-In addition to the keynote talks by invited speakers, there will be a possibility to present contributed talks.
-If you would like to be considered for one of these talks, please send a maximum **250-word abstract**.
-The topic of your presentation should align with the SAG's core theme of **Structure-Preserving Numerical Methods** and can cover areas such as:
-* **Geometric Foundations:** Variational, Hamiltonian, or metriplectic formulations of field theories
-* **Methodologies:** Geometric integration, finite element exterior calculus, variational discretization, or structure-preserving scientific machine learning
-* **Practical Application:** Usage in fields such as fluid dynamics, plasma physics, geophysics, or climate science
-* **Implementation & Deployment:** High-quality, open-source, modular software frameworks for structure-preserving methods
-
-We especially encourage submissions that resonate with the SAG's goal of fostering a collaborative community and training the next generation of researchers.
-
-Please also register for the workshop separately.  
-
 ### Important dates
 
 * **Abstract submission closes on May 1, 2026, 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
