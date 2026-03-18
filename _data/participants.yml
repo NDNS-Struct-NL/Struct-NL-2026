@@ -1,7 +1,7 @@
 groups:
   - title: Organizers
     sort: true
-    columns: false
+    columns: true
     members:
       - name: J.
         surname: Frank
