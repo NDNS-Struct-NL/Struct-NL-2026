@@ -1,7 +1,7 @@
 groups:
   - title: Organizers
     sort: true
-    columns: true
+    columns: false
     members:
       - name: J.
         surname: Frank
@@ -9,21 +9,21 @@ groups:
       - name: A.
         surname: Palha
         affil: TU Delft
-      - name: M.
-        surname: Schlottbom
-        affil: UTwente
       - name: B.
         surname: Sanderse
         affil: TU/e & CWI
+      - name: M.
+        surname: Schlottbom
+        affil: UTwente
+      - name: D.
+        surname: Toshniwal
+        affil: TU Delft
       - name: T.
         surname: Tyranowski
         affil: UTwente
       - name: R.
         surname: Verstappen
         affil: RUG
-      - name: D.
-        surname: Toshniwal
-        affil: TU Delft
   - title: Confirmed Speakers
     sort: true
     columns: true
