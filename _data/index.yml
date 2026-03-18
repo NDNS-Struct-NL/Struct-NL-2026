@@ -4,8 +4,8 @@ alerts:
     color: orange-1
 buttons:
   - text: Register here
-    url: https://dummy-registration-link.com
-    disabled: true
+    url: https://forms.cloud.microsoft/e/TurQnupvzD
+    disabled: false
   - text: Submit abstract
     url: https://dummy-registration-link.com
     disabled: true
