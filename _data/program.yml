@@ -14,20 +14,20 @@ days:
         title: Registration & coffee
         category: Break
       - time: 10:30 to 12:30
-        title: Geometric field theories
+        title: Structure-preserving spatial discretizations
         category: Session
       - time: 12:30 to 13:30
         title: Lunch
         category: Break
       - time: 13:30 to 15:30
-        title: Structure-preserving spatial discretizations
+        title: Structure-preserving reduced order models
         category: Session
       - time: 15:30 to 16:00
         title: Coffee break
         category: Break
       - time: 16:00 to 18:00
-        title: Geometric time integrators
-        category: Session
+        title: Activity session
+        category: Activity + Discussion
       - time: 18:00 to 20:00
         title: Drinks + dinner
         category: Break
@@ -37,14 +37,14 @@ days:
         title: Walk-in and Coffee
         category: Break
       - time: 10:30 to 12:30
-        title: Structure-preserving reduced order models
+        title: Geometric field theories
         category: Session
       - time: 12:30 to 13:30
         title: Lunch
         category: Break
       - time: 13:30 to 15:30
-        title: Activity session
-        category: Tutorial
+        title: Geometric time integrators
+        category: Session
       - time: 15:30 to 16:00
         title: Coffee break and closure
         category: Break
