@@ -8,4 +8,4 @@ buttons:
     disabled: false
   - text: Submit abstract
     url: https://forms.cloud.microsoft/e/me5hrUq1Bn
-    disabled: false
+    disabled: true
