@@ -40,8 +40,6 @@ Registration for this workshop is **free**, but mandatory. Lunch will be provide
 
 ### Important dates
 
-* **Abstract submission closes on May 1, 2026, 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
-* **Abstract acceptance will be notified on May 15, 2026.**
-* **Registration closes on May 1, 2026 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
+**Registration closes on May 15, 2026 23:59 ([CET](https://en.wikipedia.org/wiki/Central_European_Time)).**
 
 
