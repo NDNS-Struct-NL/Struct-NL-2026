@@ -37,13 +37,13 @@ days:
         title: Walk-in and Coffee
         category: Break
       - time: 10:30 to 12:30
-        title: Geometric time integrators
+        title: Structure-preserving reduced order models
         category: Session
       - time: 12:30 to 13:30
         title: Lunch
         category: Break
       - time: 13:30 to 15:30
-        title: Structure-preserving reduced order models
+        title: Geometric time integrators
         category: Session
       - time: 15:30 to 16:00
         title: Coffee break and closure
