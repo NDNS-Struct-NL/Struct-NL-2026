@@ -28,51 +28,51 @@ groups:
         surname: Verstappen
         affil: RUG
   - title: Confirmed Speakers
-    sort: true
+    sort: false
     columns: false
     members:
       - name: S.
         surname: Cox
         affil: UvA
-      - name: B.
-        surname: Janssens
-        affil: TU Delft
-      - name: H.
-        surname: Verhelst
-        affil: TU/e
       - name: J.
-        surname: van der Vegt
-        affil: UTwente
-      - name: N.
-        surname: Valle Marchante
-        affil: TU Delft
-      - name: M.
-        surname: Gerritsma
-        affil: TU Delft
-      - name: P.
-        surname: Zegeling
-        affil: UU
-      - name: H.
-        surname: Mu
-        affil: UTwente
-      - name: Y.
-        surname: Wotte
-        affil: UTwente
-      - name: A.
-        surname: Palha
+        surname: Dekker
         affil: TU Delft
       - name: J.
         surname: Frank
         affil: UU
+      - name: M.
+        surname: Gerritsma
+        affil: TU Delft  
+      - name: B.
+        surname: Janssens
+        affil: TU Delft
       - name: E.
         surname: Luesink
         affil: UvA
+      - name: H.
+        surname: Mu
+        affil: UTwente
+      - name: A.
+        surname: Palha
+        affil: TU Delft
       - name: T.
         surname: Tyranowski
         affil: UTwente
+      - name: N.
+        surname: Valle Marchante
+        affil: TU Delft
+      - name: J.
+        surname: van der Vegt
+        affil: UTwente
+      - name: H.
+        surname: Verhelst
+        affil: TU/e
       - name: R.
         surname: Verstappen
         affil: RU
-      - name: J.
-        surname: Dekker
-        affil: TU Delft
+      - name: Y.
+        surname: Wotte
+        affil: UTwente
+      - name: P.
+        surname: Zegeling
+        affil: UU
