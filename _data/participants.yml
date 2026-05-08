@@ -28,7 +28,7 @@ groups:
         surname: Verstappen
         affil: RUG
   - title: Confirmed Speakers
-    sort: false
+    sort: true
     columns: false
     members:
       - name: S.
