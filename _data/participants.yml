@@ -6,6 +6,9 @@ groups:
       - name: J.
         surname: Frank
         affil: UU
+      - name: E.
+        surname: Luesink
+        affil: UvA
       - name: A.
         surname: Palha
         affil: TU Delft
@@ -25,9 +28,33 @@ groups:
         surname: Verstappen
         affil: RUG
   - title: Confirmed Speakers
-    sort: true
+    sort: false
     columns: true
     members:
-      - name: TBA
-        surname: TBA
-        affil: TBA
+      - name: S.
+        surname: Cox
+        affil: UvA
+      - name: B.
+        surname: Janssens
+        affil: TU Delft
+      - name: H.
+        surname: Verhelst
+        affil: TU/e
+      - name: J.
+        surname: van der Vegt
+        affil: UTwente
+      - name: N.
+        surname: Valle Marchante
+        affil: TU Delft
+      - name: M.
+        surname: Gerritsma
+        affil: TU Delft
+      - name: P.
+        surname: Zegeling
+        affil: UU
+      - name: H.
+        surname: Mu
+        affil: UTwente
+      - name: Y.
+        surname: Wotte
+        affil: UTwente
