@@ -64,12 +64,15 @@ groups:
       - name: J.
         surname: van der Vegt
         affil: UTwente
+      - name: A.
+        surname: Veldman
+        affil: RUG
       - name: H.
         surname: Verhelst
         affil: TU/e
       - name: R.
         surname: Verstappen
-        affil: RU
+        affil: RUGg
       - name: Y.
         surname: Wotte
         affil: UTwente
