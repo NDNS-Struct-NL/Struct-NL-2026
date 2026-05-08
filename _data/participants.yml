@@ -58,10 +58,10 @@ groups:
       - name: Y.
         surname: Wotte
         affil: UTwente
-     - name: A.
+      - name: A.
         surname: Palha
         affil: TU Delft
-    - name: J.
+      - name: J.
         surname: Frank
         affil: UU
       - name: E.
