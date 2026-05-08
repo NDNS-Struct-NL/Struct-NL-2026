@@ -2,26 +2,51 @@ legend:
   title: Legend
   categories:
     - name: Break
-      color: pink-4
-    - name: Session
-      color: indigo-8
+      color: black-6
+    - name: Keynote
+      color: teal-6
+    - name: Talk
+      color: blue-6
     - name: Activity
       color: orange-5
+    - name: Misc
+      color: pink-6
 days:
-  - name: Day 1
+  - name: Thursday June 18
     events:
-      - time: 10:00 to 10:30
+      - time: 10:00 to 10:20
         title: Registration & coffee
         category: Break
-      - time: 10:30 to 12:30
-        title: Geometric field theories
-        category: Session
+      - time: 10:20 to 10:30
+        title: Welcome speech
+        category: Misc
+      - time: 10:30 to 11:15
+        title: Sonja Cox (UvA)
+        category: Keynote
+      - time: 11:15 to 11:40
+        title: Jason Frank (UU)
+        category: Talk
+      - time: 11:40 to 12:05
+        title: Bas Janssens (TU Delft)
+        category: Talk
+      - time: 12:05 to 12:30
+        title: Hugo Verhelst (TU/e)
+        category: Talk
       - time: 12:30 to 13:30
         title: Lunch
         category: Break
-      - time: 13:30 to 15:30
-        title: Structure-preserving spatial discretizations
-        category: Session
+      - time: 13:30 to 14:15
+        title: Jaap van der Vegt (UTwente)
+        category: Keynote
+      - time: 14:15 to 14:40
+        title: Roel Verstappen (RUG)
+        category: Talk
+      - time: 14:40 to 15:05
+        title: Nico Valle Marchante (TU Delft)
+        category: Talk
+      - time: 15:05 to 15:30
+        title: Joey Dekker (TU Delft)
+        category: Talk
       - time: 15:30 to 16:00
         title: Coffee break
         category: Break
@@ -31,22 +56,40 @@ days:
       - time: 18:00 to 20:00
         title: Drinks + dinner
         category: Break
-  - name: Day 2
+  - name: Friday June 19
     events:
       - time: 10:00 to 10:30
         title: Walk-in and Coffee
         category: Break
-      - time: 10:30 to 12:30
-        title: Structure-preserving reduced order models
-        category: Session
+      - time: 10:30 to 11:15
+        title: Erwin Luesink (UvA)
+        category: Keynote
+      - time: 11:15 to 11:40
+        title: Marc Gerritsma (TU Delft)
+        category: Talk
+      - time: 11:40 to 12:05
+        title: Paul Zegeling (UU)
+        category: Talk
+      - time: 12:05 to 12:30
+        title: TBA
+        category: Talk
       - time: 12:30 to 13:30
         title: Lunch
         category: Break
-      - time: 13:30 to 15:30
-        title: Geometric time integrators
-        category: Session
+      - time: 13:30 to 14:15
+        title: Tom Tyranowski (UTwente)
+        category: Keynote
+      - time: 14:15 to 14:40
+        title: Hongliang Mu (UTwente)
+        category: Talk
+      - time: 14:40 to 15:05
+        title: Yannike Wotte (UTwente)
+        category: Talk
+      - time: 15:05 to 15:30
+        title: Artur Palha (TU Delft)
+        category: Talk
       - time: 15:30 to 16:00
-        title: Coffee break and closure
+        title: Coffee break
         category: Break
 
 
