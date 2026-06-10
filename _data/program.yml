@@ -118,7 +118,7 @@ days:
       - time: 11:40 to 12:05
         title: Paul Zegeling (UU)
         subtitle: A generalized midpoint-BV-method for Hamiltonian ODE-systems
-        abstract: |
+        abstract: >
           In this talk I present a boundary-value-method (BVM) based on a higher-order implicit midpoint method. This class of methods usually applies an additional final condition to close the discretized system. BVM's offer superior stability properties compared to classical initial-value multistep methods, especially for stiff and semi-stable differential equation systems. Since information is coupled over the whole integration interval, these methods can achieve large regions of absolute stability and reduce parasitic error growth. In particular, high-order boundary-value methods may retain excellent stability characteristics where standard BDF or Adams-type schemes lose robustness. Unstable/ill-posed DEs, such as the backward heat equation or the backward SIR-model, may be resolved numerically as well, due to this property. Here, we focus on periodic solutions in Hamiltonian systems, where the final condition is replaced by a periodic condition, as suggested by Axelsson and Verwer in 1986. Several examples will be given to illustrate the potential of BVM's.
         category: Talk
       - time: 12:05 to 12:30
