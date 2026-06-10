@@ -79,7 +79,7 @@ days:
         category: Talk
       - time: 15:05 to 15:30
         title: Joey Dekker (TU Delft)
-        subtitle: Mantis.jl: Structure-preserving discretisations in Julia
+        subtitle: Mantis.jl a structure-preserving discretisations in Julia
         abstract: |
           Structure-preserving discretisations aim to retain, at the discrete level, fundamental invariants and geometric structures of partial differential equations (PDEs). Typical examples include conservation of energy, momentum, and helicity for the Navier–Stokes equations, and potential enstrophy for the shallow-water equations. Beyond their conceptual relevance, such discretisations often lead to concrete numerical advantages, including enhanced stability, the elimination of spurious modes, and improved long-time accuracy.
 
