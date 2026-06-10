@@ -129,3 +129,10 @@ layout: default
 </main>
 
 {% include footer.html %}
+
+{%- comment -%}
+  MathJax 2 typesets the `<script type="math/tex">` tags that kramdown emits
+  from `$$...$$`. Note: 2.7.9 is the final (end-of-life) MathJax 2 release; it
+  still serves fine from the CDN and is the cleanest match for kramdown output.
+{%- endcomment -%}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS_CHTML"></script>
