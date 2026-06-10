@@ -28,27 +28,50 @@ days:
         category: Keynote
       - time: 11:15 to 11:40
         title: Jason Frank (UU)
+        subtitle: Inferring Hamiltonian and Lie-Poisson systems from sample data
+        abstract: >
+          We use sigmoidal random feature maps to discern the Hamiltonian and symplectic structure from vector field data. This allows us to infer the 'nearest' Hamiltonian system to given data and also immediately yields a symplectic splitting method to make predictions of the evolution of that system. The approach works for any nondegenerate symplectic structure. I will also discuss extensions to systems with Lie-Poisson and affine Poisson structure.
         category: Talk
       - time: 11:40 to 12:05
         title: Bas Janssens (TU Delft)
+        subtitle: Fuzzy sphere limits for conformal field theory
+        abstract: >
+          In his 1982 thesis, Jens Hoppe discovered what became known as the $SU(k) -> SDiff(S^2)$ limit: commutation relations between square matrices of size k converge, in the limit of large k, to the Lie algebra of the group of volume-preserving diffeomorphisms of the 2-sphere. In subsequent work by Bordemann, Schlichenmaier, Meinrenken and others in the late 1980s and early 1990s, this curious observation was explained in terms of geometric quantization, and it has found many uses -- from fuzzy sphere models in noncommutative geometry to Zeitlin's matrix approach in hydrodynamics. In a parallel but unrelated development, the representation theory for centrally extended loop groups LSU(k) (Kac-Moody algebras) revolutionised the way conformal field theories in 1+1 dimension were handled in string theory and condensed matter theory. In this talk, based on joint work with Zhenghan Wang (Microsoft station Q/UCSB), we investigate what happens if you combine these developments. We show that the Kac-Moody cocycles on LSU(k) have `fuzzy sphere limits' in $LSDiff(S^2)$, and discuss some conjectures on what this might entail for conformal field theories in 2+1 dimensions.
         category: Talk
       - time: 12:05 to 12:30
         title: Hugo Verhelst (TU/e)
+        subtitle: Reduced-Order Modeling via Isogeometric Operator Inference
+        abstract: |
+          Among the advances of Isogeometric Analysis is the ability to simulate higher-order problems by using spline bases of higher-order continuity. This particularly benefits phase-field problems such as the simulation of the Cahn-Hilliard equation, e.g., for the simulation of phase-field fracture. Another benefit of Isogeometric Analysis, in particular of nested spline spaces, is the ability to represent spline derivatives exactly through, for example, De Rham complexes, enabling also exact representation of quantities like the Jacobian determinant.
+          Even though IGA has excellent convergence properties, hence its great efficiency, a large number of repeated Full-Order Model computations over a parametric space can still be a computationally infeasible task. Therefore, Reduced-Order Modeling (ROM) techniques are required in settings such as Uncertainty Quantification or Bayesian Inversion, where the number of model evaluations can be several orders of magnitude larger. Recent advances in ROM include Operator Learning, where one attempts to develop a ROM based on learning an operator structure, potentially on a (reduced) discrete space. Examples include Operator Inference (OpInf) [1], IGANets [2] and Neural Green's Operators (NGOs) [3], among other methods. The challenge, however, is to model non-linear operators accurately.
+          Through lifting, where snapshots are augmented with auxiliary fields to expose a polynomial or linear structure to the operator, Operator Inference methods can be trained more accurately, and, for example, conservation laws can be embedded in the operator. Since Isogeometric Analysis can provide exact representation of derivative fields, or more generally polynomials of those, it directly benefits Operator Learning methods which support lifting. For example, operator inference for the Cahn-Hilliard equation can potentially be improved by lifting the solution coefficients, and the coefficients corresponding to the gradient and Laplacian fields, which can be generated with arbitrary smooth spline bases. In case of standard Finite Element Analysis, construction of discrete derivatives is, instead, a non-trivial task.
+          In this talk, we provide results into an investigation of Operator Learning via Operator Inference. Aiming to construct Reduced-Order Models for problems such as the Cahn-Hilliard equation, we investigate how operator inference can benefit from the lifting of exactly represented quantities represented on spline bases.
+          1. Peherstorfer, Benjamin, and Karen Willcox. “Data-Driven Operator Inference for Nonintrusive Projection-Based Model Reduction.” Computer Methods in Applied Mechanics and Engineering 306 (July 2016): 196–215. https://doi.org/10.1016/j.cma.2016.03.025.
+          2. Möller, Matthias, Günther Obermair, Isabella Singer, Christian Gollmann, Alessandro Reali, and Stefanie Elgeti. “IGANets: Isogeometric Analysis Networks and Their Applications to Linear Structural Analysis Problems.” Engineering with Computers 42, no. 3 (2026): 102. https://doi.org/10.1007/s00366-026-02312-6.
+          3. Melchers, H. A., J. H. M. Prins, and M. R. A. Abdelmalik. “Neural Green’s Operators for Parametric Partial Differential Equations.” Computer Methods in Applied Mechanics and Engineering 455 (June 2026): 118893. https://doi.org/10.1016/j.cma.2026.118893.
         category: Talk
       - time: 12:30 to 13:30
         title: Lunch
         category: Break
       - time: 13:30 to 14:15
         title: Jaap van der Vegt (UTwente)
+        subtitle: 
+        abstract: >
         category: Keynote
       - time: 14:15 to 14:40
         title: Roel Verstappen (RUG)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 14:40 to 15:05
         title: Nico Valle Marchante (TU Delft)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 15:05 to 15:30
         title: Joey Dekker (TU Delft)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 15:30 to 16:00
         title: Coffee break
@@ -66,30 +89,46 @@ days:
         category: Break
       - time: 10:30 to 11:15
         title: Erwin Luesink (UvA)
+        subtitle: 
+        abstract: >
         category: Keynote
       - time: 11:15 to 11:40
         title: Marc Gerritsma (TU Delft)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 11:40 to 12:05
         title: Paul Zegeling (UU)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 12:05 to 12:30
         title: Arthur Veldman (RUG)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 12:30 to 13:30
         title: Lunch
         category: Break
       - time: 13:30 to 14:15
         title: Tom Tyranowski (UTwente)
+        subtitle: 
+        abstract: >
         category: Keynote
       - time: 14:15 to 14:40
         title: Hongliang Mu (UTwente)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 14:40 to 15:05
         title: Yannike Wotte (UTwente)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 15:05 to 15:30
         title: Artur Palha (TU Delft)
+        subtitle: 
+        abstract: >
         category: Talk
       - time: 15:30 to 16:00
         title: Coffee break
