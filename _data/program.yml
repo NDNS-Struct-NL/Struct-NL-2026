@@ -22,12 +22,9 @@ days:
         category: Misc
       - time: 10:30 to 11:15
         title: Sonja Cox (UvA)
+        subtitle: Coupling techniques for the kinetic Langevin equation
         abstract: >
-          This is an example abstract to demonstrate the new collapsible
-          field. Replace this text with the talk's real abstract. The block
-          can run over multiple lines; with the ">" folded style shown here,
-          line breaks are collapsed into spaces. Use "|" instead of ">" if you
-          need to preserve hard line breaks or paragraph structure.
+          Discretizations of the kinetic Langevin equation belong to the class of generalized Hamiltonian Monte Carlo methods: these are methods that employ Hamiltonian dynamics to (approximately) draw from the dynamic's invariant distribution. In recent work, Chak and Monmarché demonstrate that the TV distance between the distribution at time T and the invariant measure converges exponentially in T. This result is not proven the `classical' way, i.e., by identifying a suitable coupling, but by combining Wasserstein contraction rates with a multi-step Wasserstein-to-TV regularization. While this seems overly complicated, our work demonstrates that it is in fact not possible to construct a Markovian coupling that reproduces the optimal convergence rates (as can be done for e.g. overdamped Langevin dynamics). We also identify an optimal non-Markovian coupling for the linearized system and explain how the dynamics affect the coupling.
         category: Keynote
       - time: 11:15 to 11:40
         title: Jason Frank (UU)
