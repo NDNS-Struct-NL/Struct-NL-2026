@@ -150,7 +150,7 @@ days:
         category: Talk
       - time: 15:05 to 15:30
         title: Artur Palha (TU Delft)
-        subtitle: Structure preserving discretization for the shallow waters: some ideas on using Hamiltonian formulation
+        subtitle: Structure preserving discretization for the shallow waters, some ideas on using Hamiltonian formulation
         abstract: >
           The construction of structure-preserving discretizations requires careful attention to the choice of PDE formulation: it is well known that discretizing different, but analytically equivalent, formulations of the same PDE can yield discrete systems with vastly different conservation properties. In this presentation, we discuss how the Hamiltonian formulation of the shallow water equations provides a principled route to the correct formulation. Specifically, the Hamiltonian structure singles out the rotational form of the convective term and introduces auxiliary variables, and this combination, when discretized within the finite element exterior calculus (FEEC) framework, yields a scheme that conserves both energy and potential vorticity exactly at the discrete level.
         category: Talk
