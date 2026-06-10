@@ -22,6 +22,12 @@ days:
         category: Misc
       - time: 10:30 to 11:15
         title: Sonja Cox (UvA)
+        abstract: >
+          This is an example abstract to demonstrate the new collapsible
+          field. Replace this text with the talk's real abstract. The block
+          can run over multiple lines; with the ">" folded style shown here,
+          line breaks are collapsed into spaces. Use "|" instead of ">" if you
+          need to preserve hard line breaks or paragraph structure.
         category: Keynote
       - time: 11:15 to 11:40
         title: Jason Frank (UU)
