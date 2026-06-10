@@ -36,7 +36,7 @@ days:
         title: Bas Janssens (TU Delft)
         subtitle: Fuzzy sphere limits for conformal field theory
         abstract: >
-          In his 1982 thesis, Jens Hoppe discovered what became known as the $$SU(k) -> SDiff(S^2)$$ limit: commutation relations between square matrices of size k converge, in the limit of large k, to the Lie algebra of the group of volume-preserving diffeomorphisms of the 2-sphere. In subsequent work by Bordemann, Schlichenmaier, Meinrenken and others in the late 1980s and early 1990s, this curious observation was explained in terms of geometric quantization, and it has found many uses -- from fuzzy sphere models in noncommutative geometry to Zeitlin's matrix approach in hydrodynamics. In a parallel but unrelated development, the representation theory for centrally extended loop groups $$LSU(k)$$ (Kac-Moody algebras) revolutionised the way conformal field theories in 1+1 dimension were handled in string theory and condensed matter theory. In this talk, based on joint work with Zhenghan Wang (Microsoft station Q/UCSB), we investigate what happens if you combine these developments. We show that the Kac-Moody cocycles on $$LSU(k)$$ have `fuzzy sphere limits' $$in $LSDiff(S^2)$$, and discuss some conjectures on what this might entail for conformal field theories in 2+1 dimensions.
+          In his 1982 thesis, Jens Hoppe discovered what became known as the $$SU(k) -> SDiff(S^2)$$ limit: commutation relations between square matrices of size k converge, in the limit of large k, to the Lie algebra of the group of volume-preserving diffeomorphisms of the 2-sphere. In subsequent work by Bordemann, Schlichenmaier, Meinrenken and others in the late 1980s and early 1990s, this curious observation was explained in terms of geometric quantization, and it has found many uses -- from fuzzy sphere models in noncommutative geometry to Zeitlin's matrix approach in hydrodynamics. In a parallel but unrelated development, the representation theory for centrally extended loop groups $$LSU(k)$$ (Kac-Moody algebras) revolutionised the way conformal field theories in 1+1 dimension were handled in string theory and condensed matter theory. In this talk, based on joint work with Zhenghan Wang (Microsoft station Q/UCSB), we investigate what happens if you combine these developments. We show that the Kac-Moody cocycles on $$LSU(k)$$ have `fuzzy sphere limits' in $$LSDiff(S^2)$$, and discuss some conjectures on what this might entail for conformal field theories in 2+1 dimensions.
         category: Talk
       - time: 12:05 to 12:30
         title: Hugo Verhelst (TU/e)
@@ -58,23 +58,36 @@ days:
         category: Break
       - time: 13:30 to 14:15
         title: Jaap van der Vegt (UTwente)
-        subtitle: 
-        abstract: >
+        subtitle: Port-Hamiltonian Discontinuous Galerkin Methods
+        abstract: |
+          In this presentation we will discuss port-Hamiltonian discontinuous Galerkin discretizations for dynamical systems. A port-Hamiltonian (pH) system formulation is a geometrical notion using a Dirac structure to formulate conservation laws for various physical systems. Distributed parameter port-Hamiltonian formulations model infinite dimensional Hamiltonian dynamical systems that have a nonzero energy flow through the boundaries. Linking discontinuous Galerkin (DG) methods with pH-systems gives rise to a novel framework for the construction of compatible structure preserving semidiscrete finite elements discretizations along with flexibility in terms of geometry and function spaces of the variables involved. Moreover, the port-Hamiltonian formulation makes boundary ports explicit, which makes the choice of structure and power preserving numerical fluxes easier. We state the Discontinuous Finite Element Stokes–Dirac structure with a power preserving coupling between elements, both in strong and weak form, and show its relation to a (discrete) Poisson bracket, which provides the mathematical framework for a large class of port-Hamiltonian discontinuous Galerkin discretizations. The accuracy of the port-Hamiltonian discontinuous Galerkin finite element method is demonstrated by a priori error estimates and several numerical experiments.
+
+          1. N. Kumar, J.J.W. van der Vegt, H.J. Zwart, Port-Hamiltonian discontinuous Galerkin finite element methods, IMA Journal Numerical Analysis (2025) 45, 354-403.
+          2. Xiaoyu Cheng, J.J.W. van der Vegt, Yan Xu, H.J. Zwart, Discontinuous Galerkin finite element methods for linear port-Hamiltonian systems, Journal of Scientific Computing (2025) 104:8, pp. 1-47.
         category: Keynote
       - time: 14:15 to 14:40
         title: Roel Verstappen (RUG)
-        subtitle: 
+        subtitle: Developing a coherent large-eddy simulation methodology through the integration of filtering, modeling, and discretization
         abstract: >
+          Since its introduction in 1963, large-eddy simulation (LES) has advanced significantly and has developed into a valuable tool to study turbulent flow.  LES resolves only motions larger than a prescribed length scale and models the combined (dissipative) effect of the unresolved motions. The model for unresolved small-scale turbulence and the numerical discretization of the governing equations are often treated as modular components, each replaceable by alternatives with equivalent functionality. However, this modularity overlooks the complex nonlinear interactions between modeling and discretization errors, which remain poorly understood yet critically influence overall simulation accuracy. In practice, the boundaries between filtering, modeling and discretization become blurred, as numerical schemes influence both the effective filter and the modeled dissipation. This work therefore treats the core elements of LES as a unified whole; it seeks to advance LES through the integration of filtering, modeling and discretization. The integrated approach is developed and demonstrated  for relatively simple turbulent flows, serving as an initial step toward future extensions to complex turbulent flows.
         category: Talk
       - time: 14:40 to 15:05
         title: Nico Valle Marchante (TU Delft)
-        subtitle: 
+        subtitle: Geometric identities for structure-preserving computational multiphase flows in interface capturing schemes
         abstract: >
+          Structure-preserving discretizations have proven to enhance the both the stability and physical reliability of the numerical simulation of continuum mechanics, and fluid mechanics in particular (e.g.: the DNS of turbulent flows). The construction of structure-preserving discretizations proceeds flawlessly into an existing, underlying mesh representing the domain of interest by mimicking Hodge complexes (exterior derivatives and Hodge stars) and Cartan calculus (Lie derivatives) into their discrete counterparts. However, in the context of multiphase flows, the domain is partitioned into different phase regions (e.g.: liquid and gas) and its representation is not trivial anymore.  While body-fitted approaches exists, in this talk we explore structure-preserving discretizations when the phases are embedded into a fixed domain, i.e.: the background mesh is kept fixed and the interface is represented implicitly, with a level-set like function.  In particular, we look at the discretization of surface tension, a well-know troublemaker term, in the context of the Navier-Stokes equations for bubble and droplet flows and discuss the conservation of both linear momentum and kinetic energy of such a term.
         category: Talk
       - time: 15:05 to 15:30
         title: Joey Dekker (TU Delft)
-        subtitle: 
-        abstract: >
+        subtitle: Mantis.jl: Structure-preserving discretisations in Julia
+        abstract: |
+          Structure-preserving discretisations aim to retain, at the discrete level, fundamental invariants and geometric structures of partial differential equations (PDEs). Typical examples include conservation of energy, momentum, and helicity for the Navier–Stokes equations, and potential enstrophy for the shallow-water equations. Beyond their conceptual relevance, such discretisations often lead to concrete numerical advantages, including enhanced stability, the elimination of spurious modes, and improved long-time accuracy.
+
+          The Finite Element Exterior Calculus (FEEC) framework provides a rigorous mathematical foundation for the construction of structure-preserving finite element discretisations. FEEC is based on the identification and discretisation of Hilbert complexes underlying the continuous problem, such as the de Rham complex — with applications in electromagnetics or diffusion problems — and the elasticity complex. Its formulation relies heavily on differential-geometric concepts: physical fields are represented as differential forms, differential operators are unified through the exterior derivative, and constitutive and metric relations are encoded via Hodge-⋆ operators.
+
+          Most existing finite element libraries are built around classical vector-calculus formulations and incorporate FEEC concepts indirectly. While effective, this approach often requires ad hoc constructions to recover the underlying geometric structure, and can complicate the generalisation to higher dimensions, non-standard function spaces, or complex geometries.
+
+          Mantis.jl is a Julia finite element library designed natively around the FEEC paradigm. It provides a flexible environment for formulating and discretising PDEs directly in the language of exterior calculus, supporting arbitrary spatial dimensions and a wide range of discrete function spaces.
         category: Talk
       - time: 15:30 to 16:00
         title: Coffee break
@@ -92,46 +105,54 @@ days:
         category: Break
       - time: 10:30 to 11:15
         title: Erwin Luesink (UvA)
-        subtitle: 
+        subtitle: Structure-preserving simulation of SDEs on compact Lie groups
         abstract: >
+          Kinetic Langevin diffusions are commonly used to sample from certain measures, they are models in molecular dynamics. Simulating such processes on Lie groups is common in lattice gauge theory and in machine learning with constraints. These equations admit a Hamiltonian interpretation and by means of splitting integrators, we obtain powerful numerical methods that admit backward error analysis methods. In this talk, I will use the Lie group $$SO(3)$$ as a illustrative example.
         category: Keynote
       - time: 11:15 to 11:40
         title: Marc Gerritsma (TU Delft)
-        subtitle: 
+        subtitle: Geometric time integration
         abstract: >
+          Geometric considerations have proven to be very beneficial in structure-preserving high-order methods in space. Similar considerations can be applied in the time domain as well. The construction of such methods will be presented and its properties discussed.
         category: Talk
       - time: 11:40 to 12:05
         title: Paul Zegeling (UU)
-        subtitle: 
-        abstract: >
+        subtitle: A generalized midpoint-BV-method for Hamiltonian ODE-systems
+        abstract: |
+          In this talk I present a boundary-value-method (BVM) based on a higher-order implicit midpoint method. This class of methods usually applies an additional final condition to close the discretized system. BVM's offer superior stability properties compared to classical initial-value multistep methods, especially for stiff and semi-stable differential equation systems. Since information is coupled over the whole integration interval, these methods can achieve large regions of absolute stability and reduce parasitic error growth. In particular, high-order boundary-value methods may retain excellent stability characteristics where standard BDF or Adams-type schemes lose robustness. Unstable/ill-posed DEs, such as the backward heat equation or the backward SIR-model, may be resolved numerically as well, due to this property. Here, we focus on periodic solutions in Hamiltonian systems, where the final condition is replaced by a periodic condition, as suggested by Axelsson and Verwer in 1986. Several examples will be given to illustrate the potential of BVM's.
         category: Talk
       - time: 12:05 to 12:30
         title: Arthur Veldman (RUG)
-        subtitle: 
+        subtitle: Necessary and sufficient conditions for convective energy preservation in subsonic CFD
         abstract: >
+          When simulating flow instabilities, as in turbulent flow or at the tip of breaking waves, it is essential that these are not suppressed by non-physical, numerical dissipation. This implies that the discretization of convection should be free of artificial viscosity. Also, the pressure should only do work related to compression. Following the principle of non-interference, only molecular viscosity is allowed to remove energy from the flow. In the presentation we will focus on the convective term, and discuss necessary and sufficient conditions for satisfying the above requirements for a large family of discretization methods.
         category: Talk
       - time: 12:30 to 13:30
         title: Lunch
         category: Break
       - time: 13:30 to 14:15
         title: Tom Tyranowski (UTwente)
-        subtitle: 
+        subtitle: Learning deterministic and stochastic forced Hamiltonian systems
         abstract: >
+          We present a neural network architecture capable of learning the parameter-dependent flow of a Hamiltonian system subject to external forcing, while preserving the underlying Lagrange-d’Alembert structure. We demonstrate that this architecture can learn the flows of time-dependent systems--both deterministic and stochastic--and more accurately emulate the system’s energy evolution compared to general-purpose, non-structure-preserving neural networks. This results in more stable and higher-quality solutions. We also discuss prospective applications to structure-preserving model reduction of stochastic Hamiltonian systems.
         category: Keynote
       - time: 14:15 to 14:40
         title: Hongliang Mu (UTwente)
-        subtitle: 
+        subtitle: Structure-preserving model reduction on manifolds of port-Hamiltonian systems`
         abstract: >
+          This paper considers structure-preserving model order reduction (MOR) techniques for port- Hamiltonian (pH) systems, which are typically derived from energy-based modelling. To keep favorable properties of pH systems such as stability and passivity in a reduced order model (ROM), we use structure-preserving methods in the reduction process. There exists an extensive literature on structure-preserving MOR methods of pH systems, however, to the best of our knowledge, there does not exist an intrusive structure-preserving MOR method for nonlinear pH systems on the base of general nonlinear approximation maps. To close this gap, we propose a MOR method for pH systems based on the idea of the generalized manifold Galerkin (GMG) reduction. The resulting MOR method can be applied to both linear and nonlinear pH systems resulting in ROMs, which are again of pH form. For the numerical examples, we employ a linear and a nonlinear mass-spring-damper system and the results show that the proposed MOR methods have lower relative reduction error compared to existing methods.
         category: Talk
       - time: 14:40 to 15:05
         title: Yannike Wotte (UTwente)
-        subtitle: 
+        subtitle: Model order reduction via Lie groups for port-Hamiltonian systems
         abstract: >
+          Lie groups and their actions are ubiquitous in the description of physical systems. In recent work, we explored implications in the setting of model order reduction (MOR). The resulting approach of MOR via Lie groups (MORLie) abstracts full order models (FOMs) as high-dimensional dynamical systems on manifolds, and reduced order models (ROMs) as low-dimensional dynamical systems on Lie groups. The approach extended existing Lie group frameworks for MOR to non-equivariant dynamics, which are frequent in practical applications, lent itself to non-intrusive MOR methods that strongly outscale linear subspace methods, and has an error bound lower than the Kolmogorov  N-width. In this talk, we present a first extension of MORLie to port-Hamiltonian systems on manifolds, which capture the energy-routing and dissipative structure of a vast number of controlled physical systems. 
         category: Talk
       - time: 15:05 to 15:30
         title: Artur Palha (TU Delft)
-        subtitle: 
+        subtitle: Structure preserving discretization for the shallow waters: some ideas on using Hamiltonian formulation
         abstract: >
+          The construction of structure-preserving discretizations requires careful attention to the choice of PDE formulation: it is well known that discretizing different, but analytically equivalent, formulations of the same PDE can yield discrete systems with vastly different conservation properties. In this presentation, we discuss how the Hamiltonian formulation of the shallow water equations provides a principled route to the correct formulation. Specifically, the Hamiltonian structure singles out the rotational form of the convective term and introduces auxiliary variables, and this combination, when discretized within the finite element exterior calculus (FEEC) framework, yields a scheme that conserves both energy and potential vorticity exactly at the discrete level.
         category: Talk
       - time: 15:30 to 16:00
         title: Coffee break
