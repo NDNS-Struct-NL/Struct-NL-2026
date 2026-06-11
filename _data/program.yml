@@ -110,10 +110,10 @@ days:
           Kinetic Langevin diffusions are commonly used to sample from certain measures, they are models in molecular dynamics. Simulating such processes on Lie groups is common in lattice gauge theory and in machine learning with constraints. These equations admit a Hamiltonian interpretation and by means of splitting integrators, we obtain powerful numerical methods that admit backward error analysis methods. In this talk, I will use the Lie group $$SO(3)$$ as a illustrative example.
         category: Keynote
       - time: 11:15 to 11:40
-        title: Marc Gerritsma (TU Delft)
-        subtitle: Geometric time integration
+        title: Yannike Wotte (UTwente)
+        subtitle: Model order reduction via Lie groups for port-Hamiltonian systems
         abstract: >
-          Geometric considerations have proven to be very beneficial in structure-preserving high-order methods in space. Similar considerations can be applied in the time domain as well. The construction of such methods will be presented and its properties discussed.
+          Lie groups and their actions are ubiquitous in the description of physical systems. In recent work, we explored implications in the setting of model order reduction (MOR). The resulting approach of MOR via Lie groups (MORLie) abstracts full order models (FOMs) as high-dimensional dynamical systems on manifolds, and reduced order models (ROMs) as low-dimensional dynamical systems on Lie groups. The approach extended existing Lie group frameworks for MOR to non-equivariant dynamics, which are frequent in practical applications, lent itself to non-intrusive MOR methods that strongly outscale linear subspace methods, and has an error bound lower than the Kolmogorov  N-width. In this talk, we present a first extension of MORLie to port-Hamiltonian systems on manifolds, which capture the energy-routing and dissipative structure of a vast number of controlled physical systems. 
         category: Talk
       - time: 11:40 to 12:05
         title: Paul Zegeling (UU)
@@ -143,10 +143,10 @@ days:
           This paper considers structure-preserving model order reduction (MOR) techniques for port- Hamiltonian (pH) systems, which are typically derived from energy-based modelling. To keep favorable properties of pH systems such as stability and passivity in a reduced order model (ROM), we use structure-preserving methods in the reduction process. There exists an extensive literature on structure-preserving MOR methods of pH systems, however, to the best of our knowledge, there does not exist an intrusive structure-preserving MOR method for nonlinear pH systems on the base of general nonlinear approximation maps. To close this gap, we propose a MOR method for pH systems based on the idea of the generalized manifold Galerkin (GMG) reduction. The resulting MOR method can be applied to both linear and nonlinear pH systems resulting in ROMs, which are again of pH form. For the numerical examples, we employ a linear and a nonlinear mass-spring-damper system and the results show that the proposed MOR methods have lower relative reduction error compared to existing methods.
         category: Talk
       - time: 14:40 to 15:05
-        title: Yannike Wotte (UTwente)
-        subtitle: Model order reduction via Lie groups for port-Hamiltonian systems
+        title: Marc Gerritsma (TU Delft)
+        subtitle: Geometric time integration
         abstract: >
-          Lie groups and their actions are ubiquitous in the description of physical systems. In recent work, we explored implications in the setting of model order reduction (MOR). The resulting approach of MOR via Lie groups (MORLie) abstracts full order models (FOMs) as high-dimensional dynamical systems on manifolds, and reduced order models (ROMs) as low-dimensional dynamical systems on Lie groups. The approach extended existing Lie group frameworks for MOR to non-equivariant dynamics, which are frequent in practical applications, lent itself to non-intrusive MOR methods that strongly outscale linear subspace methods, and has an error bound lower than the Kolmogorov  N-width. In this talk, we present a first extension of MORLie to port-Hamiltonian systems on manifolds, which capture the energy-routing and dissipative structure of a vast number of controlled physical systems. 
+          Geometric considerations have proven to be very beneficial in structure-preserving high-order methods in space. Similar considerations can be applied in the time domain as well. The construction of such methods will be presented and its properties discussed.
         category: Talk
       - time: 15:05 to 15:30
         title: Artur Palha (TU Delft)
